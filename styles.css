@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@700&display=swap');
+
+body {
+  background: url('https://i.imgur.com/X9Nz3x4.jpeg') no-repeat center center/cover;
+  font-family: "Funnel Sans", serif;
+  color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock {
+  position: absolute;
+  top: 550px;   /* Adjust this value to position vertically */
+  left: 30px;  /* Adjust this value to position horizontally */
+  font-size: 3.5rem;
+  text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 0.1rem;
+  text-align: center;
+}
+
+#seconds {
+  min-width: 3.6rem;
+}
