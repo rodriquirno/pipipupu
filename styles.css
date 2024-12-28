@@ -13,9 +13,9 @@ body {
 
 .clock {
   position: absolute;
-  top: 427px;   /* Adjust this value to position vertically */
-  left: 30px;  /* Adjust this value to position horizontally */
-  font-size: 3.3rem;
+  top: 490px;   /* Adjust this value to position vertically */
+  left: 40px;  /* Adjust this value to position horizontally */
+  font-size: 3.5rem;
   text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1);
   display: flex;
   gap: 0.1rem;
